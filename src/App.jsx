@@ -28,6 +28,7 @@ function App() {
     const data = await response.json()
     setShortUrl(domain_name + data.shortenedUrl)
     SetIsShort(true)
+    setUserUrl("")
   }
 
   const handleBack = () => {
