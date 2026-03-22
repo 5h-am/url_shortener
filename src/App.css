@@ -1,0 +1,28 @@
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.urlInput {
+    border-radius: 1rem;
+    background-color: #fff;
+    padding: 0.6em;
+}
+
+.shorten-btn {
+    border-radius: 1rem;
+    background-color: rgb(3, 61, 61);
+    padding: 0.4em;
+    color: #fff;
+    transition: 0.4s;
+
+}
+
+.shorten-btn:focus,
+.shorten-btn:hover {
+    cursor: pointer;
+    transform: translate(-4px, -2px);
+    background-color: rgb(3, 40, 40);
+}

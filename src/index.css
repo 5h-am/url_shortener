@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(8, 107, 107);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
